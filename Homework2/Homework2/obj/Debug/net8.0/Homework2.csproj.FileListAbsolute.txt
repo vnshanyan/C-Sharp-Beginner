@@ -1,0 +1,14 @@
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\bin\Debug\net8.0\Homework2.exe
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\bin\Debug\net8.0\Homework2.deps.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\bin\Debug\net8.0\Homework2.runtimeconfig.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\bin\Debug\net8.0\Homework2.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\bin\Debug\net8.0\Homework2.pdb
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.GeneratedMSBuildEditorConfig.editorconfig
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.AssemblyInfoInputs.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.AssemblyInfo.cs
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.csproj.CoreCompileInputs.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\refint\Homework2.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.pdb
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\Homework2.genruntimeconfig.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\Homework2\Homework2\obj\Debug\net8.0\ref\Homework2.dll

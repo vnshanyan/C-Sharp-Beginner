@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\Homework1\\Homework1\\Homework1.csproj": {}
+    "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework1\\Homework1\\Homework1.csproj": {}
   },
   "projects": {
-    "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\Homework1\\Homework1\\Homework1.csproj": {
+    "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework1\\Homework1\\Homework1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\Homework1\\Homework1\\Homework1.csproj",
+        "projectUniqueName": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework1\\Homework1\\Homework1.csproj",
         "projectName": "Homework1",
-        "projectPath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\Homework1\\Homework1\\Homework1.csproj",
+        "projectPath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework1\\Homework1\\Homework1.csproj",
         "packagesPath": "C:\\Users\\vardo\\.nuget\\packages\\",
-        "outputPath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\Homework1\\Homework1\\obj\\",
+        "outputPath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework1\\Homework1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
