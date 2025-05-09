@@ -1,0 +1,366 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5
+// command took 1.41s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5
+// command took 16.27s and exited with 1
+// start dotnet build -c Release  --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5
+// command took 3.59s and exited with 0
+// ***** Done, took 00:00:21 (21.4 sec)   *****
+// Found 4 benchmarks:
+//   StringBenchmarker.String: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=1000]
+//   StringBenchmarker.StringBuilder: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=1000]
+//   StringBenchmarker.String: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=100000]
+//   StringBenchmarker.StringBuilder: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=100000]
+
+// **************************
+// Benchmark: StringBenchmarker.String: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=1000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "964b4b2f-092e-4116-8756-27e3fef6ace5.dll" --benchmarkName "Benchmarker.StringBenchmarker.TestString(TotalCount: 1000)" --job "IterationCount=1, LaunchCount=1, WarmupCount=1" --benchmarkId 0 in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-TMNEFX(IterationCount=1, LaunchCount=1, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 109100.00 ns, 109.1000 us/op
+WorkloadJitting  1: 1 op, 1380600.00 ns, 1.3806 ms/op
+
+OverheadJitting  2: 16 op, 114500.00 ns, 7.1562 us/op
+WorkloadJitting  2: 16 op, 9534600.00 ns, 595.9125 us/op
+
+WorkloadPilot    1: 16 op, 5581800.00 ns, 348.8625 us/op
+WorkloadPilot    2: 32 op, 5628600.00 ns, 175.8938 us/op
+WorkloadPilot    3: 64 op, 11566500.00 ns, 180.7266 us/op
+WorkloadPilot    4: 128 op, 24495800.00 ns, 191.3734 us/op
+WorkloadPilot    5: 256 op, 46069200.00 ns, 179.9578 us/op
+WorkloadPilot    6: 512 op, 92615600.00 ns, 180.8898 us/op
+WorkloadPilot    7: 1024 op, 169604900.00 ns, 165.6298 us/op
+WorkloadPilot    8: 2048 op, 335173400.00 ns, 163.6589 us/op
+WorkloadPilot    9: 4096 op, 673526300.00 ns, 164.4351 us/op
+
+OverheadWarmup   1: 4096 op, 91200.00 ns, 22.2656 ns/op
+OverheadWarmup   2: 4096 op, 41500.00 ns, 10.1318 ns/op
+OverheadWarmup   3: 4096 op, 88600.00 ns, 21.6309 ns/op
+OverheadWarmup   4: 4096 op, 39100.00 ns, 9.5459 ns/op
+OverheadWarmup   5: 4096 op, 75800.00 ns, 18.5059 ns/op
+OverheadWarmup   6: 4096 op, 39600.00 ns, 9.6680 ns/op
+
+OverheadActual   1: 4096 op, 99700.00 ns, 24.3408 ns/op
+OverheadActual   2: 4096 op, 39300.00 ns, 9.5947 ns/op
+OverheadActual   3: 4096 op, 40300.00 ns, 9.8389 ns/op
+OverheadActual   4: 4096 op, 39800.00 ns, 9.7168 ns/op
+OverheadActual   5: 4096 op, 41100.00 ns, 10.0342 ns/op
+OverheadActual   6: 4096 op, 42800.00 ns, 10.4492 ns/op
+OverheadActual   7: 4096 op, 41800.00 ns, 10.2051 ns/op
+OverheadActual   8: 4096 op, 39200.00 ns, 9.5703 ns/op
+OverheadActual   9: 4096 op, 39300.00 ns, 9.5947 ns/op
+OverheadActual  10: 4096 op, 41000.00 ns, 10.0098 ns/op
+OverheadActual  11: 4096 op, 40900.00 ns, 9.9854 ns/op
+OverheadActual  12: 4096 op, 45600.00 ns, 11.1328 ns/op
+OverheadActual  13: 4096 op, 40400.00 ns, 9.8633 ns/op
+OverheadActual  14: 4096 op, 38600.00 ns, 9.4238 ns/op
+OverheadActual  15: 4096 op, 45200.00 ns, 11.0352 ns/op
+OverheadActual  16: 4096 op, 42100.00 ns, 10.2783 ns/op
+OverheadActual  17: 4096 op, 42100.00 ns, 10.2783 ns/op
+
+WorkloadWarmup   1: 4096 op, 666187400.00 ns, 162.6434 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 4096 op, 680604900.00 ns, 166.1633 us/op
+
+// AfterActualRun
+WorkloadResult   1: 4096 op, 680563900.00 ns, 166.1533 us/op
+GC:  1255 25 0 15745450320 4096
+Threading:  0 0 4096
+
+// AfterAll
+// Benchmark Process 34928 has exited with code 0.
+
+Mean = 166.153 μs, StdErr = 0.000 μs (0.00%), N = 1, StdDev = 0.000 μs
+Min = 166.153 μs, Q1 = 166.153 μs, Median = 166.153 μs, Q3 = 166.153 μs, Max = 166.153 μs
+IQR = 0.000 μs, LowerFence = 166.153 μs, UpperFence = 166.153 μs
+ConfidenceInterval = [NaN μs; NaN μs] (CI 99.9%), Margin = NaN μs (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+
+// **************************
+// Benchmark: StringBenchmarker.StringBuilder: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=1000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "964b4b2f-092e-4116-8756-27e3fef6ace5.dll" --benchmarkName "Benchmarker.StringBenchmarker.TestStringBuilder(TotalCount: 1000)" --job "IterationCount=1, LaunchCount=1, WarmupCount=1" --benchmarkId 1 in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-DEIRIG(IterationCount=1, LaunchCount=1, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 111900.00 ns, 111.9000 us/op
+WorkloadJitting  1: 1 op, 916800.00 ns, 916.8000 us/op
+
+OverheadJitting  2: 16 op, 116200.00 ns, 7.2625 us/op
+WorkloadJitting  2: 16 op, 5110200.00 ns, 319.3875 us/op
+
+WorkloadPilot    1: 16 op, 213800.00 ns, 13.3625 us/op
+WorkloadPilot    2: 32 op, 435400.00 ns, 13.6062 us/op
+WorkloadPilot    3: 64 op, 876400.00 ns, 13.6937 us/op
+WorkloadPilot    4: 128 op, 1673100.00 ns, 13.0711 us/op
+WorkloadPilot    5: 256 op, 3355300.00 ns, 13.1066 us/op
+WorkloadPilot    6: 512 op, 9649200.00 ns, 18.8461 us/op
+WorkloadPilot    7: 1024 op, 14166500.00 ns, 13.8345 us/op
+WorkloadPilot    8: 2048 op, 20651100.00 ns, 10.0835 us/op
+WorkloadPilot    9: 4096 op, 40353600.00 ns, 9.8520 us/op
+WorkloadPilot   10: 8192 op, 71507100.00 ns, 8.7289 us/op
+WorkloadPilot   11: 16384 op, 62565700.00 ns, 3.8187 us/op
+WorkloadPilot   12: 32768 op, 123226400.00 ns, 3.7606 us/op
+WorkloadPilot   13: 65536 op, 253278400.00 ns, 3.8647 us/op
+WorkloadPilot   14: 131072 op, 525862800.00 ns, 4.0120 us/op
+
+OverheadWarmup   1: 131072 op, 1340700.00 ns, 10.2287 ns/op
+OverheadWarmup   2: 131072 op, 705100.00 ns, 5.3795 ns/op
+OverheadWarmup   3: 131072 op, 158200.00 ns, 1.2070 ns/op
+OverheadWarmup   4: 131072 op, 167700.00 ns, 1.2794 ns/op
+OverheadWarmup   5: 131072 op, 172800.00 ns, 1.3184 ns/op
+OverheadWarmup   6: 131072 op, 159300.00 ns, 1.2154 ns/op
+OverheadWarmup   7: 131072 op, 160800.00 ns, 1.2268 ns/op
+OverheadWarmup   8: 131072 op, 217200.00 ns, 1.6571 ns/op
+OverheadWarmup   9: 131072 op, 247400.00 ns, 1.8875 ns/op
+OverheadWarmup  10: 131072 op, 209100.00 ns, 1.5953 ns/op
+
+OverheadActual   1: 131072 op, 175700.00 ns, 1.3405 ns/op
+OverheadActual   2: 131072 op, 164800.00 ns, 1.2573 ns/op
+OverheadActual   3: 131072 op, 157700.00 ns, 1.2032 ns/op
+OverheadActual   4: 131072 op, 163200.00 ns, 1.2451 ns/op
+OverheadActual   5: 131072 op, 170600.00 ns, 1.3016 ns/op
+OverheadActual   6: 131072 op, 164400.00 ns, 1.2543 ns/op
+OverheadActual   7: 131072 op, 164500.00 ns, 1.2550 ns/op
+OverheadActual   8: 131072 op, 162400.00 ns, 1.2390 ns/op
+OverheadActual   9: 131072 op, 157600.00 ns, 1.2024 ns/op
+OverheadActual  10: 131072 op, 173000.00 ns, 1.3199 ns/op
+OverheadActual  11: 131072 op, 158100.00 ns, 1.2062 ns/op
+OverheadActual  12: 131072 op, 163800.00 ns, 1.2497 ns/op
+OverheadActual  13: 131072 op, 165600.00 ns, 1.2634 ns/op
+OverheadActual  14: 131072 op, 169700.00 ns, 1.2947 ns/op
+OverheadActual  15: 131072 op, 169400.00 ns, 1.2924 ns/op
+
+WorkloadWarmup   1: 131072 op, 494316300.00 ns, 3.7713 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 131072 op, 712752000.00 ns, 5.4379 us/op
+
+// AfterActualRun
+WorkloadResult   1: 131072 op, 712587500.00 ns, 5.4366 us/op
+GC:  174 5 0 2186281296 131072
+Threading:  0 0 131072
+
+// AfterAll
+// Benchmark Process 13784 has exited with code 0.
+
+Mean = 5.437 μs, StdErr = 0.000 μs (0.00%), N = 1, StdDev = 0.000 μs
+Min = 5.437 μs, Q1 = 5.437 μs, Median = 5.437 μs, Q3 = 5.437 μs, Max = 5.437 μs
+IQR = 0.000 μs, LowerFence = 5.437 μs, UpperFence = 5.437 μs
+ConfidenceInterval = [NaN μs; NaN μs] (CI 99.9%), Margin = NaN μs (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+
+// **************************
+// Benchmark: StringBenchmarker.String: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=100000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "964b4b2f-092e-4116-8756-27e3fef6ace5.dll" --benchmarkName "Benchmarker.StringBenchmarker.TestString(TotalCount: 100000)" --job "IterationCount=1, LaunchCount=1, WarmupCount=1" --benchmarkId 2 in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-KSOILH(IterationCount=1, LaunchCount=1, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 207700.00 ns, 207.7000 us/op
+WorkloadJitting  1: 1 op, 8865756400.00 ns, 8.8658 s/op
+
+WorkloadWarmup   1: 1 op, 8609849300.00 ns, 8.6098 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 9081985700.00 ns, 9.0820 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 9081985700.00 ns, 9.0820 s/op
+GC:  15181 15145 11715 57908903360 1
+Threading:  0 0 1
+
+// AfterAll
+// Benchmark Process 19800 has exited with code 0.
+
+Mean = 9.082 s, StdErr = 0.000 s (0.00%), N = 1, StdDev = 0.000 s
+Min = 9.082 s, Q1 = 9.082 s, Median = 9.082 s, Q3 = 9.082 s, Max = 9.082 s
+IQR = 0.000 s, LowerFence = 9.082 s, UpperFence = 9.082 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+
+// **************************
+// Benchmark: StringBenchmarker.StringBuilder: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=100000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "964b4b2f-092e-4116-8756-27e3fef6ace5.dll" --benchmarkName "Benchmarker.StringBenchmarker.TestStringBuilder(TotalCount: 100000)" --job "IterationCount=1, LaunchCount=1, WarmupCount=1" --benchmarkId 3 in D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Benchmarker\Benchmarker\bin\Release\net8.0\964b4b2f-092e-4116-8756-27e3fef6ace5\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-YSHLJQ(IterationCount=1, LaunchCount=1, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 246100.00 ns, 246.1000 us/op
+WorkloadJitting  1: 1 op, 10628000.00 ns, 10.6280 ms/op
+
+OverheadJitting  2: 16 op, 266300.00 ns, 16.6438 us/op
+WorkloadJitting  2: 16 op, 17028300.00 ns, 1.0643 ms/op
+
+WorkloadPilot    1: 16 op, 16835200.00 ns, 1.0522 ms/op
+WorkloadPilot    2: 32 op, 25462500.00 ns, 795.7031 us/op
+WorkloadPilot    3: 64 op, 69932100.00 ns, 1.0927 ms/op
+WorkloadPilot    4: 128 op, 148941900.00 ns, 1.1636 ms/op
+WorkloadPilot    5: 256 op, 252403600.00 ns, 985.9516 us/op
+WorkloadPilot    6: 512 op, 429461500.00 ns, 838.7920 us/op
+WorkloadPilot    7: 1024 op, 1041604700.00 ns, 1.0172 ms/op
+
+OverheadWarmup   1: 1024 op, 40900.00 ns, 39.9414 ns/op
+OverheadWarmup   2: 1024 op, 16200.00 ns, 15.8203 ns/op
+OverheadWarmup   3: 1024 op, 20000.00 ns, 19.5312 ns/op
+OverheadWarmup   4: 1024 op, 19100.00 ns, 18.6523 ns/op
+OverheadWarmup   5: 1024 op, 14900.00 ns, 14.5508 ns/op
+OverheadWarmup   6: 1024 op, 14800.00 ns, 14.4531 ns/op
+OverheadWarmup   7: 1024 op, 14500.00 ns, 14.1602 ns/op
+OverheadWarmup   8: 1024 op, 19100.00 ns, 18.6523 ns/op
+OverheadWarmup   9: 1024 op, 18600.00 ns, 18.1641 ns/op
+
+OverheadActual   1: 1024 op, 20200.00 ns, 19.7266 ns/op
+OverheadActual   2: 1024 op, 19500.00 ns, 19.0430 ns/op
+OverheadActual   3: 1024 op, 19300.00 ns, 18.8477 ns/op
+OverheadActual   4: 1024 op, 29200.00 ns, 28.5156 ns/op
+OverheadActual   5: 1024 op, 16800.00 ns, 16.4062 ns/op
+OverheadActual   6: 1024 op, 16600.00 ns, 16.2109 ns/op
+OverheadActual   7: 1024 op, 16500.00 ns, 16.1133 ns/op
+OverheadActual   8: 1024 op, 17200.00 ns, 16.7969 ns/op
+OverheadActual   9: 1024 op, 15900.00 ns, 15.5273 ns/op
+OverheadActual  10: 1024 op, 19800.00 ns, 19.3359 ns/op
+OverheadActual  11: 1024 op, 18700.00 ns, 18.2617 ns/op
+OverheadActual  12: 1024 op, 18500.00 ns, 18.0664 ns/op
+OverheadActual  13: 1024 op, 16100.00 ns, 15.7227 ns/op
+OverheadActual  14: 1024 op, 16600.00 ns, 16.2109 ns/op
+OverheadActual  15: 1024 op, 16000.00 ns, 15.6250 ns/op
+OverheadActual  16: 1024 op, 17300.00 ns, 16.8945 ns/op
+OverheadActual  17: 1024 op, 18000.00 ns, 17.5781 ns/op
+OverheadActual  18: 1024 op, 15900.00 ns, 15.5273 ns/op
+OverheadActual  19: 1024 op, 17800.00 ns, 17.3828 ns/op
+OverheadActual  20: 1024 op, 18600.00 ns, 18.1641 ns/op
+
+WorkloadWarmup   1: 1024 op, 1055190200.00 ns, 1.0305 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 1024 op, 1120211700.00 ns, 1.0940 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1024 op, 1120194150.00 ns, 1.0939 ms/op
+GC:  435 435 227 2427079696 1024
+Threading:  0 0 1024
+
+// AfterAll
+// Benchmark Process 6688 has exited with code 0.
+
+Mean = 1.094 ms, StdErr = 0.000 ms (0.00%), N = 1, StdDev = 0.000 ms
+Min = 1.094 ms, Q1 = 1.094 ms, Median = 1.094 ms, Q3 = 1.094 ms, Max = 1.094 ms
+IQR = 0.000 ms, LowerFence = 1.094 ms, UpperFence = 1.094 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarker.StringBenchmarker-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarker.StringBenchmarker-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarker.StringBenchmarker-report.html
+
+// * Detailed results *
+StringBenchmarker.String: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=1000]
+Runtime = .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 166.153 μs, StdErr = 0.000 μs (0.00%), N = 1, StdDev = 0.000 μs
+Min = 166.153 μs, Q1 = 166.153 μs, Median = 166.153 μs, Q3 = 166.153 μs, Max = 166.153 μs
+IQR = 0.000 μs, LowerFence = 166.153 μs, UpperFence = 166.153 μs
+ConfidenceInterval = [NaN μs; NaN μs] (CI 99.9%), Margin = NaN μs (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+-------------------- Histogram --------------------
+[166.153 μs ; 166.154 μs) | @
+---------------------------------------------------
+
+StringBenchmarker.StringBuilder: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=1000]
+Runtime = .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 5.437 μs, StdErr = 0.000 μs (0.00%), N = 1, StdDev = 0.000 μs
+Min = 5.437 μs, Q1 = 5.437 μs, Median = 5.437 μs, Q3 = 5.437 μs, Max = 5.437 μs
+IQR = 0.000 μs, LowerFence = 5.437 μs, UpperFence = 5.437 μs
+ConfidenceInterval = [NaN μs; NaN μs] (CI 99.9%), Margin = NaN μs (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+-------------------- Histogram --------------------
+[5.436 μs ; 5.437 μs) | @
+---------------------------------------------------
+
+StringBenchmarker.String: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=100000]
+Runtime = .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 9.082 s, StdErr = 0.000 s (0.00%), N = 1, StdDev = 0.000 s
+Min = 9.082 s, Q1 = 9.082 s, Median = 9.082 s, Q3 = 9.082 s, Max = 9.082 s
+IQR = 0.000 s, LowerFence = 9.082 s, UpperFence = 9.082 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+-------------------- Histogram --------------------
+[9.082 s ; 9.082 s) | @
+---------------------------------------------------
+
+StringBenchmarker.StringBuilder: Job-AIRQIO(IterationCount=1, LaunchCount=1, WarmupCount=1) [TotalCount=100000]
+Runtime = .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 1.094 ms, StdErr = 0.000 ms (0.00%), N = 1, StdDev = 0.000 ms
+Min = 1.094 ms, Q1 = 1.094 ms, Median = 1.094 ms, Q3 = 1.094 ms, Max = 1.094 ms
+IQR = 0.000 ms, LowerFence = 1.094 ms, UpperFence = 1.094 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+-------------------- Histogram --------------------
+[1.094 ms ; 1.094 ms) | @
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.26100
+Intel Core Ultra 7 155H, 1 CPU, 22 logical and 16 physical cores
+.NET SDK=10.0.100-preview.3.25201.16
+  [Host]     : .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+  Job-AIRQIO : .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+
+IterationCount=1  LaunchCount=1  WarmupCount=1  
+
+|        Method | TotalCount |             Mean | Error |         Gen 0 |         Gen 1 |         Gen 2 |     Allocated |
+|-------------- |----------- |-----------------:|------:|--------------:|--------------:|--------------:|--------------:|
+|        String |       1000 |       166.153 μs |    NA |      306.3965 |        6.1035 |             - |      3,754 KB |
+| StringBuilder |       1000 |         5.437 μs |    NA |        1.3275 |        0.0381 |             - |         16 KB |
+|        String |     100000 | 9,081,985.700 μs |    NA | 15181000.0000 | 15145000.0000 | 11715000.0000 | 56,551,663 KB |
+| StringBuilder |     100000 |     1,093.940 μs |    NA |      424.8047 |      424.8047 |      221.6797 |      2,315 KB |
+
+// * Legends *
+  TotalCount : Value of the 'TotalCount' parameter
+  Mean       : Arithmetic mean of all measurements
+  Error      : Half of 99.9% confidence interval
+  Gen 0      : GC Generation 0 collects per 1000 operations
+  Gen 1      : GC Generation 1 collects per 1000 operations
+  Gen 2      : GC Generation 2 collects per 1000 operations
+  Allocated  : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 μs       : 1 Microsecond (0.000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:49 (49.71 sec), executed benchmarks: 4
+
+Global total time: 00:01:11 (71.12 sec), executed benchmarks: 4
+// * Artifacts cleanup *

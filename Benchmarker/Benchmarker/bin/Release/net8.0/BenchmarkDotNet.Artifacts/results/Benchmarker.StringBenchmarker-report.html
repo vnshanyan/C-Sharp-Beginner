@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmarker.StringBenchmarker-20250508-193618</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.26100
+Intel Core Ultra 7 155H, 1 CPU, 22 logical and 16 physical cores
+.NET SDK=10.0.100-preview.3.25201.16
+  [Host]     : .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+  Job-AIRQIO : .NET 8.0.15 (8.0.1525.16413), X64 RyuJIT
+</code></pre>
+<pre><code>IterationCount=1  LaunchCount=1  WarmupCount=1  
+</code></pre>
+
+<table>
+<thead><tr><th> Method</th><th>TotalCount</th><th>      Mean</th><th>Error</th><th>  Gen 0</th><th>  Gen 1</th><th>  Gen 2</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>String</td><td>1000</td><td>166.153 &mu;s</td><td>NA</td><td>306.3965</td><td>6.1035</td><td>-</td><td>3,754 KB</td>
+</tr><tr><td>StringBuilder</td><td>1000</td><td>5.437 &mu;s</td><td>NA</td><td>1.3275</td><td>0.0381</td><td>-</td><td>16 KB</td>
+</tr><tr><td>String</td><td>100000</td><td>9,081,985.700 &mu;s</td><td>NA</td><td>15181000.0000</td><td>15145000.0000</td><td>11715000.0000</td><td>56,551,663 KB</td>
+</tr><tr><td>StringBuilder</td><td>100000</td><td>1,093.940 &mu;s</td><td>NA</td><td>424.8047</td><td>424.8047</td><td>221.6797</td><td>2,315 KB</td>
+</tr></tbody></table>
+</body>
+</html>

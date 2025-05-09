@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8191D43F-4EC0-4437-AB5E-EB496AB9C9AE}|Homework4\\Homework4.csproj|d:\\vardik\\c# trainings by garik nikoyan\\c-sharp-beginner\\homework4\\homework4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8191D43F-4EC0-4437-AB5E-EB496AB9C9AE}|Homework4\\Homework4.csproj|solutionrelative:homework4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework4\\Homework4\\Program.cs",
+              "RelativeDocumentMoniker": "Homework4\\Program.cs",
+              "ToolTip": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework4\\Homework4\\Program.cs",
+              "RelativeToolTip": "Homework4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:04:46.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

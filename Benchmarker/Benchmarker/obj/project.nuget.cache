@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "ICxHd/ldjaU=",
+  "success": true,
+  "projectFilePath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Benchmarker\\Benchmarker\\Benchmarker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vardo\\.nuget\\packages\\benchmarkdotnet\\0.13.1\\benchmarkdotnet.0.13.1.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.1\\benchmarkdotnet.annotations.0.13.1.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\commandlineparser\\2.4.3\\commandlineparser.2.4.3.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\iced\\1.8.0\\iced.1.8.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.6.1\\microsoft.codeanalysis.analyzers.2.6.1.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.codeanalysis.common\\2.10.0\\microsoft.codeanalysis.common.2.10.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.codeanalysis.csharp\\2.10.0\\microsoft.codeanalysis.csharp.2.10.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.diagnostics.netcore.client\\0.2.61701\\microsoft.diagnostics.netcore.client.0.2.61701.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.diagnostics.runtime\\1.1.126102\\microsoft.diagnostics.runtime.1.1.126102.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.diagnostics.tracing.traceevent\\2.0.61\\microsoft.diagnostics.tracing.traceevent.2.0.61.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\perfolizer\\0.2.1\\perfolizer.0.2.1.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\system.codedom\\4.5.0\\system.codedom.4.5.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\system.management\\4.5.0\\system.management.4.5.0.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\vardo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.14\\microsoft.netcore.app.host.win-x64.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
