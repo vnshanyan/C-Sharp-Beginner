@@ -10,7 +10,7 @@ namespace Homework6
     {
         static void Main(string[] args)
         {
-            
+            /*
             //**Практичные задачи на логические и побитовые операторы**
             //1: Умный дом: управление системой безопасности
             //Ввод:
@@ -596,6 +596,7 @@ namespace Homework6
             {
                 Console.WriteLine("Hint: Turn on jump.");
             }
+            */
         }
     }
 }
