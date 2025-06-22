@@ -1,0 +1,15 @@
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\bin\Debug\net8.0\Homework11.exe
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\bin\Debug\net8.0\Homework11.deps.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\bin\Debug\net8.0\Homework11.runtimeconfig.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\bin\Debug\net8.0\Homework11.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\bin\Debug\net8.0\Homework11.pdb
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.GeneratedMSBuildEditorConfig.editorconfig
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.AssemblyInfoInputs.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.AssemblyInfo.cs
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.csproj.CoreCompileInputs.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.sourcelink.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\refint\Homework11.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.pdb
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\Homework11.genruntimeconfig.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\Homework11\Homework11\obj\Debug\net8.0\ref\Homework11.dll
