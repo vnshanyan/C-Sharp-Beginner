@@ -1,0 +1,37 @@
+[
+  {
+    "Id": "540f778d-e889-4365-8a92-75fd179084f3",
+    "Name": "Anun1",
+    "Contract": "FullTime"
+  },
+  {
+    "Id": "e2723324-bcd1-46dd-91e4-464f884067e7",
+    "Name": "Anun2",
+    "Contract": "FullTime"
+  },
+  {
+    "Id": "24a2ca07-1352-4491-98b3-238137352263",
+    "Name": "Anun3",
+    "Contract": "PartTime"
+  },
+  {
+    "Id": "aaf03f3b-0f8a-4215-9a1d-8a81975ac8cf",
+    "Name": "Anun4",
+    "Contract": "PartTime"
+  },
+  {
+    "Id": "271c0bbd-ef6d-4b28-8346-225438bd5217",
+    "Name": "Anun5",
+    "Contract": "Freelancer"
+  },
+  {
+    "Id": "477b29b7-23a9-4c2e-bf25-084d88ed6ef6",
+    "Name": "Anun6",
+    "Contract": "Intern"
+  },
+  {
+    "Id": "386e7238-9d47-42db-9f1a-f357687d5aac",
+    "Name": "Anun7",
+    "Contract": "Intern"
+  }
+]
