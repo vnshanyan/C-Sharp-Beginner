@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "City_Landmarks_IEnumerator", "City_Landmarks_IEnumerator\City_Landmarks_IEnumerator.csproj", "{19DE11BB-24A9-4105-AA95-88486E54C3C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DE11BB-24A9-4105-AA95-88486E54C3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DE11BB-24A9-4105-AA95-88486E54C3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DE11BB-24A9-4105-AA95-88486E54C3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DE11BB-24A9-4105-AA95-88486E54C3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BDF4C17-FB75-4B89-97D0-D2F9EB2A1C8E}
+	EndGlobalSection
+EndGlobal

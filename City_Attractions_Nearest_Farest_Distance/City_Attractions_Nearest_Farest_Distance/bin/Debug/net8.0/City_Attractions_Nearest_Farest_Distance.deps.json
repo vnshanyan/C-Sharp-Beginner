@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "City_Attractions_Nearest_Farest_Distance/1.0.0": {
+        "runtime": {
+          "City_Attractions_Nearest_Farest_Distance.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "City_Attractions_Nearest_Farest_Distance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

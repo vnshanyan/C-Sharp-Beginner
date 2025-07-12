@@ -1,0 +1,15 @@
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\bin\Debug\net8.0\City_Landmarks_IEnumerator.exe
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\bin\Debug\net8.0\City_Landmarks_IEnumerator.deps.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\bin\Debug\net8.0\City_Landmarks_IEnumerator.runtimeconfig.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\bin\Debug\net8.0\City_Landmarks_IEnumerator.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\bin\Debug\net8.0\City_Landmarks_IEnumerator.pdb
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.AssemblyInfoInputs.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.AssemblyInfo.cs
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.csproj.CoreCompileInputs.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.sourcelink.json
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\refint\City_Landmarks_IEnumerator.dll
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.pdb
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\City_Landmarks_IEnumerator.genruntimeconfig.cache
+D:\VARDIK\C# Trainings By Garik Nikoyan\C-Sharp-Beginner\City_Landmarks_IEnumerator\City_Landmarks_IEnumerator\obj\Debug\net8.0\ref\City_Landmarks_IEnumerator.dll
