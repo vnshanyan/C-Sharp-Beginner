@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\IEnumerable_IEnumerator_Current_Class_Struct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB55FFC-4CA6-4E1E-8216-3BC8E445A877}|IEnumerable_IEnumerator_Current_Class_Struct\\IEnumerable_IEnumerator_Item_Class_Struct.csproj|d:\\vardik\\c# trainings by garik nikoyan\\c-sharp-beginner\\ienumerable_ienumerator_current_class_struct\\ienumerable_ienumerator_current_class_struct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB55FFC-4CA6-4E1E-8216-3BC8E445A877}|IEnumerable_IEnumerator_Current_Class_Struct\\IEnumerable_IEnumerator_Item_Class_Struct.csproj|solutionrelative:ienumerable_ienumerator_current_class_struct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\IEnumerable_IEnumerator_Current_Class_Struct\\IEnumerable_IEnumerator_Current_Class_Struct\\Program.cs",
+              "RelativeDocumentMoniker": "IEnumerable_IEnumerator_Current_Class_Struct\\Program.cs",
+              "ToolTip": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\IEnumerable_IEnumerator_Current_Class_Struct\\IEnumerable_IEnumerator_Current_Class_Struct\\Program.cs",
+              "RelativeToolTip": "IEnumerable_IEnumerator_Current_Class_Struct\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:10:54.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

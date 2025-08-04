@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IEnumerable_IEnumerator_Item_Class_Struct/1.0.0": {
+        "runtime": {
+          "IEnumerable_IEnumerator_Item_Class_Struct.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IEnumerable_IEnumerator_Item_Class_Struct/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
