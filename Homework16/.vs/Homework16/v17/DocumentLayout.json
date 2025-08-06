@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C864996-0737-4B81-86AB-728388C4F35D}|Homework16\\Homework16.csproj|d:\\vardik\\c# trainings by garik nikoyan\\c-sharp-beginner\\homework16\\homework16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C864996-0737-4B81-86AB-728388C4F35D}|Homework16\\Homework16.csproj|solutionrelative:homework16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C864996-0737-4B81-86AB-728388C4F35D}|Homework16\\Homework16.csproj|d:\\vardik\\c# trainings by garik nikoyan\\c-sharp-beginner\\homework16\\homework16\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C864996-0737-4B81-86AB-728388C4F35D}|Homework16\\Homework16.csproj|solutionrelative:homework16\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Zoo.cs",
+              "DocumentMoniker": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework16\\Homework16\\Zoo.cs",
+              "RelativeDocumentMoniker": "Homework16\\Zoo.cs",
+              "ToolTip": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework16\\Homework16\\Zoo.cs",
+              "RelativeToolTip": "Homework16\\Zoo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:35:54.003Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Homework16\\Program.cs",
               "ToolTip": "D:\\VARDIK\\C# Trainings By Garik Nikoyan\\C-Sharp-Beginner\\Homework16\\Homework16\\Program.cs",
               "RelativeToolTip": "Homework16\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T06:54:58.262Z",
               "EditorCaption": ""

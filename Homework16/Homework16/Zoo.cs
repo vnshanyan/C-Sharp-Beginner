@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace Homework16
 {
-    public class Zoo : IList<Animal>
+    public class Zoo<T> : IList<Animal> where T: Animal
     {
         private readonly List<Animal> _animals = new List<Animal>();
         public Animal this[int index]

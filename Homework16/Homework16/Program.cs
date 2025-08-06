@@ -6,7 +6,7 @@ namespace Homework16
     {
         static void Main(string[] args)
         {
-            Zoo zoo = new Zoo();
+            Zoo<Animal> zoo = new Zoo<Animal>();
             zoo.Add(new Dog { Name = "Rex", Age = 5, Breed = "Labrador" });
             zoo.Add(new Bulldog { Name = "Max", Age = 7, Breed = "Bulldog" });
             zoo.Add(new Cat { Name = "Mittens", Age = 3, IsIndoor = false });
